@@ -1,0 +1,10 @@
+@charset "UTF-8";
+* {
+    border: 1px solid black;
+}
+
+header {}
+
+body {
+    background-color: gray;
+}
