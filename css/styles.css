@@ -1,10 +1,53 @@
 @charset "UTF-8";
-* {
+
+/** {
     border: 1px solid black;
+}*/
+
+header {
+    background-image: url("/Users/student/Desktop/calishabu/img/header.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 700px;
 }
 
-header {}
-
 body {
-    background-color: gray;
+    background-color: #D3D3D3;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    border: 2px solid blue;
+    padding: 25px 0 0 0;
+}
+
+footer {
+    border: 2px solid red;
+    float: left;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+}
+
+.alignleft {
+    position: fixed;
+}
+
+.mainborder {
+    border-top: 20px solid #e34b20;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 20px solid #e34b20;
 }
