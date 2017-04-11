@@ -1,53 +1,66 @@
 @charset "UTF-8";
 
-/** {
+/*ul {
     border: 1px solid black;
 }*/
 
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #36454f;
+    font-family: 'Paytone One', sans-serif;
+    color: #ffffff;
+}
+
+.fontsize {
+    color: ;
+    font-size: 25pt;
+}
+
+footer {
+    float: left;
+    color: #ffffff;
+}
+
 header {
-    background-image: url("/Users/student/Desktop/calishabu/img/header.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
     height: 700px;
 }
 
-body {
-    background-color: #D3D3D3;
-    font-family: 'Paytone One', sans-serif;
-}
-
-.img-center {
-    display: block;
+.gallery {
     margin-left: auto;
     margin-right: auto;
+    width: 1000px;
+    padding: 50px 0 50px 0;
 }
 
-.gallery {
-    /*margin-left: 10%;
-    margin-right: 10%;*/
-    border: 2px solid blue;
-    padding: 25px 0 0 0;
+.mainborder {
+    border-top: 20px solid #e34b20;
+    border-bottom: 20px solid #e34b20;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-footer {
-    border: 2px solid red;
-    float: left;
+.mainfont {
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
+    font-size: 15pt;
+}
+
+.margin {
+    font-size: 15pt;
+    padding-left: 40px;
 }
 
 ul {
     list-style-type: none;
     justify-content: center;
-}
-
-.alignleft {
-    position: fixed;
-}
-
-.mainborder {
-    border-top: 20px solid #e34b20;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom: 20px solid #e34b20;
 }
