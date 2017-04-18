@@ -2,65 +2,76 @@
 
 @media only screen and (max-width: 500px) {
   /*MOBILE settings*/
-  .block {
+  
+.block {
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     text-align: justify;
-  }
-  #center {
+}
+  
+#center {
     margin: auto;
     text-align: center;
-  }
-  body {
+}
+  
+body {
     background-color: #36454f;
     font-family: 'Paytone One', sans-serif;
     color: #ffffff;
   }
-  .fontsize {
+	
+.fontsize {
     font-size: 15pt;
     text-align: center;
-  }
-  footer {
+}
+  
+footer {
     text-align: center;
     color: #ffffff;
-  }
-  .gallery {
+}
+ 
+.gallery {
     margin: auto;
     width: 100%;
     column-count: 2;
     column-width: 180px;
     text-align: center;
 }
-  header img {
+
+header img {
     width: 65%;
     height: 65%;
-  }
-  .mainborder {
+}
+  
+.mainborder {
     border-top: 20px solid #e34b20;
     border-bottom: 20px solid #e34b20;
     padding-left: 10px;
     padding-right: 10px;
-  }
-  .mainfont {
+}
+  
+.mainfont {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    /*font-size: 10pt;*/
-  }
-  ul {
+    font-size: 10pt;
+}
+  
+ul {
     list-style-type: none;
     text-align: left;
-  }
+}
 }
 
 @media only screen and (min-width: 501px) {
   /*TABLET settings*/
 
-  #center {
+#center {
     margin: auto;
     text-align: center;
-  }
-  .block {
+	}
+  
+.block {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -106,7 +117,7 @@ header img {
   .mainfont {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    font-size: 15pt;
+    font-size: 12pt;
   }
   ul {
     list-style-type: none;
@@ -114,40 +125,46 @@ header img {
 
   @media only screen and (min-width: 1024px) {
     /*DESKTOP settings*/
-    #center {
+#center {
       margin: auto;
       text-align: center;
-    }
-    .block {
+}
+	  
+.block {
       margin-left: auto;
       margin-right: auto;
       width: 1000px;
       padding-top: 10px;
       padding-bottom: 10px;
-    }
-    body {
-      background-color: skyblue;
+}
+    
+body {
+      background-color: #8e9294;
       font-family: 'Paytone One', sans-serif;
       color: #ffffff;
-    }
-    .fontsize {
+}
+    
+.fontsize {
       font-size: 25pt;
       text-align: center;
-    }
-    footer {
+}
+    
+footer {
       float: left;
       color: #ffffff;
-    }
-    .gallery {
+}
+    
+.gallery {
       margin: auto;
       width: 75%;
       /*column-count: 5;*/
       text-align: center;
       padding: 50px 25px 50px 25px;
-    }
-    h1 {
+}
+
+h1 {
       text-align: center;
-    }
+}
 
 header img {
         width: 40%;
